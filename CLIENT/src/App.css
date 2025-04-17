@@ -1,0 +1,159 @@
+
+/*
+
+    Styling of Login page
+
+*/
+
+
+.myContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap:150px;
+    height:90vh;
+    width:100%;
+    .left{
+        height:100%;
+        padding-top:70px;
+        width:25%;
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+        row-gap:50px;
+        .myHeading{
+            display: flex;
+            display:flex;
+            flex-direction:column;
+            align-items: center;
+            row-gap:10px;
+        }
+        .formElements{
+            width:100%;
+            display: flex;
+            flex-direction: column;
+            row-gap:20px;
+            .feild{
+                display: flex;
+                column-gap:20px;
+                border:2px solid yellowgreen;
+                padding:10px;
+                border-radius:.3rem;
+                input{
+                    width:70%;
+                    &:focus{
+                        outline:none;
+                    }
+                }
+            }  
+        }
+        button{
+            width:100%;
+            cursor: pointer;
+        }
+    }
+    .right{
+        width:30%;
+        display: flex;
+        flex-wrap: wrap;
+        column-gap:10px;
+        row-gap:10px;
+        margin-left:120px;
+    }
+}
+
+
+/*
+
+    Styling of Profile page
+
+*/
+
+.profileContainer{
+    width:100%;
+    height:90.5vh;
+    /* background-color: orange; */
+    display: grid;
+    place-items:center;
+    .profile{
+        width:80%;
+        height:100%;
+        /* background-color: pink; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h1{
+            font-size:3rem;
+        }
+        .randomContainer{
+            width:30%;
+            display: flex;
+            justify-content: space-between;
+            font-size:2rem;
+            button{
+                width:70%;
+                height: 50%;
+                border:2px solid orange;
+                padding:0 10px;
+                cursor: pointer;
+                font-size: 1rem;
+                border-radius: .4rem;
+            }
+        }
+        .info{
+            display: flex;
+            flex-direction: column;
+            row-gap:10px;
+            width:50%;
+            .name{
+                width:100%;
+                border:2px solid orange;
+                border-radius:.5rem;
+                padding:5px;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                gap:20px;
+                input{
+                    &:focus{
+                        outline: none;
+                    }
+                }
+            }
+        }
+        .account-info{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom:2px solid yellowgreen;
+        }
+        img{
+            height:200px;
+            width:200px;
+            border-radius: 50%;
+        }
+        .imageContainer{
+            height:200px;
+            width:200px;
+            display: grid;
+            place-items: center;
+        }
+    }
+
+}
+
+
+/**
+
+    Home Page CSS
+
+*/
+
+.mainContainer{
+    height: 90.5vh;
+    width:100%;
+    /* background-color: lightseagreen; */
+    display: flex;
+    justify-content: center;
+    /* gap:200px; */
+}

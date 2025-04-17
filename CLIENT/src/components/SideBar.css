@@ -1,0 +1,10 @@
+
+
+.sidebar{
+    width:350px;
+    /* background-color: lightcoral; */
+    .users{
+        overflow-y: auto;
+        padding:20px;
+    }
+}
